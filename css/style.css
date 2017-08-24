@@ -4,7 +4,7 @@
 .infographics-wrapper {
 	width: 100%;
 	height: 500px;
-	background-color: #000;
+	background-color: #4267b2;
 	position: relative;
 }
 .item {
@@ -13,19 +13,25 @@
 	position: absolute;
 	margin-top: -75px;
 	margin-left: -75px;
+	text-align: center;
 }
+
+.item span {
+	color: #fff;
+	font-size: 18px;
+	padding-top: 15px;
+	display: inline-block;
+}
+
 #lamp{
 	left: 10%;
 	top: 40%;
-
 }
 #skype{
 	left: 30%;
 	top: 40%;
-
 }
 #youtube{
 	left: 50%;
 	top: 20%;
-
 }
