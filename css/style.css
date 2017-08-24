@@ -1,6 +1,12 @@
 #main .container {
 	padding-top: 100px;
 }
-.infographics-wrapper img {
-	width:150px;
+.infographics-wrapper {
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+}
+.item {
+	width: 150px;
+	height: 150px;
 }
