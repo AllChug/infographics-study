@@ -12,7 +12,7 @@
     <section id="main">
         <div class="container">
             <div class="infographics-wrapper">
-                <div class="item" id="lamp">
+                <div class="item" id="lamp" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">
                     <img src="img/lamp.svg" alt="">
                     <span>постановка цели</span>
                 </div>
@@ -32,6 +32,9 @@
     </section>
     <script src="vendor/jquery.js"></script>
     <script src="js/script.js"></script>
+    <script>
+         $('[data-toggle="popover"]').popover();
+    </script>
 </body>
 
 </html>
